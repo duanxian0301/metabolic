@@ -1,0 +1,9 @@
+study_accession	trait_code	biomarker_name	group	ultra_pure_factor	sumstats_file	final_factor_name
+GCST90451206	M_HDL_TG	Triglycerides in medium HDL	Lipoprotein subclasses	F1_TG_rich_axis	D:/metabolic/GWAS/sumstats/GCST90451206.sumstats.gz	F1_TG_rich_axis
+GCST90451305	VLDL_size	Average diameter for VLDL particles	Lipoprotein particle sizes	F1_TG_rich_axis	D:/metabolic/GWAS/sumstats/GCST90451305.sumstats.gz	F1_TG_rich_axis
+GCST90451220	MUFA	Monounsaturated fatty acids	Fatty acids	F1_TG_rich_axis	D:/metabolic/GWAS/sumstats/GCST90451220.sumstats.gz	F1_TG_rich_axis
+GCST90451285	S_VLDL_TG	Triglycerides in small VLDL	Lipoprotein subclasses	F1_TG_rich_axis	D:/metabolic/GWAS/sumstats/GCST90451285.sumstats.gz	F1_TG_rich_axis
+GCST90451111	ApoA1	Apolipoprotein A1	Apolipoproteins	F2_HDL_core_axis	D:/metabolic/GWAS/sumstats/GCST90451111.sumstats.gz	F2_HDL_core_axis
+GCST90451125	HDL_CE	Cholesteryl esters in HDL	Cholesteryl esters	F2_HDL_core_axis	D:/metabolic/GWAS/sumstats/GCST90451125.sumstats.gz	F2_HDL_core_axis
+GCST90451336	XS_VLDL_FC	Free cholesterol in very small VLDL	Lipoprotein subclasses	F3_CE_structural_axis	D:/metabolic/GWAS/sumstats/GCST90451336.sumstats.gz	F3_CE_structural_axis
+GCST90451299	VLDL_CE	Cholesteryl esters in VLDL	Cholesteryl esters	F3_CE_structural_axis	D:/metabolic/GWAS/sumstats/GCST90451299.sumstats.gz	F3_CE_structural_axis

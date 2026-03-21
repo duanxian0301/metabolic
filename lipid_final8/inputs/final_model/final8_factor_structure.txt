@@ -1,0 +1,4 @@
+# Final lipid-module 3-factor model (8 traits)
+F1_TG_rich_axis =~ M_HDL_TG + VLDL_size + MUFA + S_VLDL_TG
+F2_HDL_core_axis =~ ApoA1 + HDL_CE
+F3_CE_structural_axis =~ XS_VLDL_FC + VLDL_CE

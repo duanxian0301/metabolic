@@ -1,0 +1,11 @@
+*.log
+*.rds
+*.RData
+*.Rhistory
+__pycache__/
+*.pyc
+outputs/
+results/
+work/
+*.sumstats.gz
+*.xlsx

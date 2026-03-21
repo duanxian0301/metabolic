@@ -1,0 +1,113 @@
+study_accession	trait_code	biomarker_name	group	sumstats_file
+GCST90451109	Ala	Alanine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451109.sumstats.gz
+GCST90451121	Gln	Glutamine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451121.sumstats.gz
+GCST90451133	His	Histidine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451133.sumstats.gz
+GCST90451146	Ile	Isoleucine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451146.sumstats.gz
+GCST90451158	Leu	Leucine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451158.sumstats.gz
+GCST90451239	Phe	Phenylalanine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451239.sumstats.gz
+GCST90451296	Tyr	Tyrosine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451296.sumstats.gz
+GCST90451298	Val	Valine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451298.sumstats.gz
+GCST90451111	ApoA1	Apolipoprotein A1	Apolipoproteins	D:/metabolic/GWAS/sumstats/GCST90451111.sumstats.gz
+GCST90451126	HDL_C	HDL cholesterol	Cholesterol	D:/metabolic/GWAS/sumstats/GCST90451126.sumstats.gz
+GCST90451300	VLDL_C	VLDL cholesterol	Cholesterol	D:/metabolic/GWAS/sumstats/GCST90451300.sumstats.gz
+GCST90451125	HDL_CE	Cholesteryl esters in HDL	Cholesteryl esters	D:/metabolic/GWAS/sumstats/GCST90451125.sumstats.gz
+GCST90451288	Total_CE	Total esterified cholesterol	Cholesteryl esters	D:/metabolic/GWAS/sumstats/GCST90451288.sumstats.gz
+GCST90451299	VLDL_CE	Cholesteryl esters in VLDL	Cholesteryl esters	D:/metabolic/GWAS/sumstats/GCST90451299.sumstats.gz
+GCST90451120	DHA	Docosahexaenoic acid	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451120.sumstats.gz
+GCST90451149	LA	Linoleic acid	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451149.sumstats.gz
+GCST90451220	MUFA	Monounsaturated fatty acids	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451220.sumstats.gz
+GCST90451235	Omega_3	Omega-3 fatty acids	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451235.sumstats.gz
+GCST90451238	Omega_6	Omega-6 fatty acids	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451238.sumstats.gz
+GCST90451244	PUFA	Polyunsaturated fatty acids	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451244.sumstats.gz
+GCST90451248	SFA	Saturated fatty acids	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451248.sumstats.gz
+GCST90451290	Total_FA	Total fatty acids	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451290.sumstats.gz
+GCST90451110	Albumin	Albumin	Fluid balance	D:/metabolic/GWAS/sumstats/GCST90451110.sumstats.gz
+GCST90451118	Creatinine	Creatinine	Fluid balance	D:/metabolic/GWAS/sumstats/GCST90451118.sumstats.gz
+GCST90451127	HDL_FC	Free cholesterol in HDL	Free cholesterol	D:/metabolic/GWAS/sumstats/GCST90451127.sumstats.gz
+GCST90451301	VLDL_FC	Free cholesterol in VLDL	Free cholesterol	D:/metabolic/GWAS/sumstats/GCST90451301.sumstats.gz
+GCST90451116	Citrate	Citrate	Glycolysis related metabolites	D:/metabolic/GWAS/sumstats/GCST90451116.sumstats.gz
+GCST90451122	Glucose	Glucose	Glycolysis related metabolites	D:/metabolic/GWAS/sumstats/GCST90451122.sumstats.gz
+GCST90451147	Lactate	Lactate	Glycolysis related metabolites	D:/metabolic/GWAS/sumstats/GCST90451147.sumstats.gz
+GCST90451123	GlycA	Glycoprotein acetyls	Inflammation	D:/metabolic/GWAS/sumstats/GCST90451123.sumstats.gz
+GCST90451106	Acetate	Acetate	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451106.sumstats.gz
+GCST90451107	Acetoacetate	Acetoacetate	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451107.sumstats.gz
+GCST90451108	Acetone	Acetone	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451108.sumstats.gz
+GCST90451114	bOHbutyrate	3-Hydroxybutyrate	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451114.sumstats.gz
+GCST90451131	HDL_size	Average diameter for HDL particles	Lipoprotein particle sizes	D:/metabolic/GWAS/sumstats/GCST90451131.sumstats.gz
+GCST90451156	LDL_size	Average diameter for LDL particles	Lipoprotein particle sizes	D:/metabolic/GWAS/sumstats/GCST90451156.sumstats.gz
+GCST90451305	VLDL_size	Average diameter for VLDL particles	Lipoprotein particle sizes	D:/metabolic/GWAS/sumstats/GCST90451305.sumstats.gz
+GCST90451145	IDL_TG	Triglycerides in IDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451145.sumstats.gz
+GCST90451162	L_HDL_C	Cholesterol in large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451162.sumstats.gz
+GCST90451160	L_HDL_CE	Cholesteryl esters in large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451160.sumstats.gz
+GCST90451164	L_HDL_FC	Free cholesterol in large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451164.sumstats.gz
+GCST90451165	L_HDL_L	Total lipids in large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451165.sumstats.gz
+GCST90451167	L_HDL_PL	Phospholipids in large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451167.sumstats.gz
+GCST90451182	L_LDL_TG	Triglycerides in large LDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451182.sumstats.gz
+GCST90451186	L_VLDL_C	Cholesterol in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451186.sumstats.gz
+GCST90451184	L_VLDL_CE	Cholesteryl esters in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451184.sumstats.gz
+GCST90451188	L_VLDL_FC	Free cholesterol in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451188.sumstats.gz
+GCST90451189	L_VLDL_L	Total lipids in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451189.sumstats.gz
+GCST90451191	L_VLDL_PL	Phospholipids in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451191.sumstats.gz
+GCST90451194	L_VLDL_TG	Triglycerides in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451194.sumstats.gz
+GCST90451198	M_HDL_C	Cholesterol in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451198.sumstats.gz
+GCST90451196	M_HDL_CE	Cholesteryl esters in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451196.sumstats.gz
+GCST90451200	M_HDL_FC	Free cholesterol in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451200.sumstats.gz
+GCST90451201	M_HDL_L	Total lipids in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451201.sumstats.gz
+GCST90451203	M_HDL_PL	Phospholipids in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451203.sumstats.gz
+GCST90451206	M_HDL_TG	Triglycerides in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451206.sumstats.gz
+GCST90451218	M_LDL_TG	Triglycerides in medium LDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451218.sumstats.gz
+GCST90451226	M_VLDL_FC	Free cholesterol in medium VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451226.sumstats.gz
+GCST90451227	M_VLDL_L	Total lipids in medium VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451227.sumstats.gz
+GCST90451229	M_VLDL_PL	Phospholipids in medium VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451229.sumstats.gz
+GCST90451232	M_VLDL_TG	Triglycerides in medium VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451232.sumstats.gz
+GCST90451252	S_HDL_C	Cholesterol in small HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451252.sumstats.gz
+GCST90451250	S_HDL_CE	Cholesteryl esters in small HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451250.sumstats.gz
+GCST90451254	S_HDL_FC	Free cholesterol in small HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451254.sumstats.gz
+GCST90451255	S_HDL_L	Total lipids in small HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451255.sumstats.gz
+GCST90451257	S_HDL_PL	Phospholipids in small HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451257.sumstats.gz
+GCST90451260	S_HDL_TG	Triglycerides in small HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451260.sumstats.gz
+GCST90451272	S_LDL_TG	Triglycerides in small LDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451272.sumstats.gz
+GCST90451277	S_VLDL_C	Cholesterol in small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451277.sumstats.gz
+GCST90451275	S_VLDL_CE	Cholesteryl esters in small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451275.sumstats.gz
+GCST90451279	S_VLDL_FC	Free cholesterol in small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451279.sumstats.gz
+GCST90451280	S_VLDL_L	Total lipids in small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451280.sumstats.gz
+GCST90451282	S_VLDL_PL	Phospholipids in small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451282.sumstats.gz
+GCST90451285	S_VLDL_TG	Triglycerides in small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451285.sumstats.gz
+GCST90451310	XL_HDL_C	Cholesterol in very large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451310.sumstats.gz
+GCST90451308	XL_HDL_CE	Cholesteryl esters in very large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451308.sumstats.gz
+GCST90451312	XL_HDL_FC	Free cholesterol in very large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451312.sumstats.gz
+GCST90451313	XL_HDL_L	Total lipids in very large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451313.sumstats.gz
+GCST90451315	XL_HDL_PL	Phospholipids in very large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451315.sumstats.gz
+GCST90451318	XL_HDL_TG	Triglycerides in very large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451318.sumstats.gz
+GCST90451322	XL_VLDL_C	Cholesterol in very large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451322.sumstats.gz
+GCST90451320	XL_VLDL_CE	Cholesteryl esters in very large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451320.sumstats.gz
+GCST90451324	XL_VLDL_FC	Free cholesterol in very large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451324.sumstats.gz
+GCST90451325	XL_VLDL_L	Total lipids in very large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451325.sumstats.gz
+GCST90451327	XL_VLDL_PL	Phospholipids in very large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451327.sumstats.gz
+GCST90451330	XL_VLDL_TG	Triglycerides in very large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451330.sumstats.gz
+GCST90451334	XS_VLDL_C	Cholesterol in very small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451334.sumstats.gz
+GCST90451332	XS_VLDL_CE	Cholesteryl esters in very small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451332.sumstats.gz
+GCST90451336	XS_VLDL_FC	Free cholesterol in very small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451336.sumstats.gz
+GCST90451337	XS_VLDL_L	Total lipids in very small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451337.sumstats.gz
+GCST90451339	XS_VLDL_PL	Phospholipids in very small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451339.sumstats.gz
+GCST90451342	XS_VLDL_TG	Triglycerides in very small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451342.sumstats.gz
+GCST90451346	XXL_VLDL_C	Cholesterol in chylomicrons and extremely large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451346.sumstats.gz
+GCST90451344	XXL_VLDL_CE	Cholesteryl esters in chylomicrons and extremely large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451344.sumstats.gz
+GCST90451348	XXL_VLDL_FC	Free cholesterol in chylomicrons and extremely large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451348.sumstats.gz
+GCST90451349	XXL_VLDL_L	Total lipids in chylomicrons and extremely large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451349.sumstats.gz
+GCST90451351	XXL_VLDL_PL	Phospholipids in chylomicrons and extremely large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451351.sumstats.gz
+GCST90451354	XXL_VLDL_TG	Triglycerides in chylomicrons and extremely large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451354.sumstats.gz
+GCST90451115	Cholines	Total cholines	Other lipids	D:/metabolic/GWAS/sumstats/GCST90451115.sumstats.gz
+GCST90451240	Phosphatidylc	Phosphatidylcholines	Other lipids	D:/metabolic/GWAS/sumstats/GCST90451240.sumstats.gz
+GCST90451241	Phosphoglyc	Phosphoglycerides	Other lipids	D:/metabolic/GWAS/sumstats/GCST90451241.sumstats.gz
+GCST90451273	Sphingomyelins	Sphingomyelins	Other lipids	D:/metabolic/GWAS/sumstats/GCST90451273.sumstats.gz
+GCST90451129	HDL_PL	Phospholipids in HDL	Phospholipids	D:/metabolic/GWAS/sumstats/GCST90451129.sumstats.gz
+GCST90451293	Total_PL	Total phospholipids in lipoprotein particles	Phospholipids	D:/metabolic/GWAS/sumstats/GCST90451293.sumstats.gz
+GCST90451303	VLDL_PL	Phospholipids in VLDL	Phospholipids	D:/metabolic/GWAS/sumstats/GCST90451303.sumstats.gz
+GCST90451128	HDL_L	Total lipids in HDL	Total lipids	D:/metabolic/GWAS/sumstats/GCST90451128.sumstats.gz
+GCST90451292	Total_L	Total lipids in lipoprotein particles	Total lipids	D:/metabolic/GWAS/sumstats/GCST90451292.sumstats.gz
+GCST90451302	VLDL_L	Total lipids in VLDL	Total lipids	D:/metabolic/GWAS/sumstats/GCST90451302.sumstats.gz
+GCST90451132	HDL_TG	Triglycerides in HDL	Triglycerides	D:/metabolic/GWAS/sumstats/GCST90451132.sumstats.gz
+GCST90451157	LDL_TG	Triglycerides in LDL	Triglycerides	D:/metabolic/GWAS/sumstats/GCST90451157.sumstats.gz
+GCST90451295	Total_TG	Total triglycerides	Triglycerides	D:/metabolic/GWAS/sumstats/GCST90451295.sumstats.gz
+GCST90451306	VLDL_TG	Triglycerides in VLDL	Triglycerides	D:/metabolic/GWAS/sumstats/GCST90451306.sumstats.gz

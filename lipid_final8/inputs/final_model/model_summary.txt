@@ -1,0 +1,7 @@
+Current best lipid-module model selected for downstream analysis.
+Model: 3-factor target-rotation ESEM, final-8 marker panel.
+Fit on ALL covariance matrix: CFI = 0.943415, SRMR = 0.011175, RMSEA = 0.327863.
+Factors:
+F1_TG_rich_axis: M_HDL_TG, VLDL_size, MUFA, S_VLDL_TG
+F2_HDL_core_axis: ApoA1, HDL_CE
+F3_CE_structural_axis: XS_VLDL_FC, VLDL_CE
