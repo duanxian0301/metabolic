@@ -1,0 +1,9 @@
+study_accession	trait_code	biomarker_name	group	ultra_pure_factor	sumstats_file	final_factor_name
+GCST90451107	Acetoacetate	Acetoacetate	Ketone bodies	F1_ketone_axis	D:/metabolic/GWAS/sumstats/GCST90451107.sumstats.gz	F1_ketone_axis
+GCST90451114	bOHbutyrate	3-Hydroxybutyrate	Ketone bodies	F1_ketone_axis	D:/metabolic/GWAS/sumstats/GCST90451114.sumstats.gz	F1_ketone_axis
+GCST90451158	Leu	Leucine	Amino acids	F2_amino_acid_axis	D:/metabolic/GWAS/sumstats/GCST90451158.sumstats.gz	F2_amino_acid_axis
+GCST90451239	Phe	Phenylalanine	Amino acids	F2_amino_acid_axis	D:/metabolic/GWAS/sumstats/GCST90451239.sumstats.gz	F2_amino_acid_axis
+GCST90451298	Val	Valine	Amino acids	F2_amino_acid_axis	D:/metabolic/GWAS/sumstats/GCST90451298.sumstats.gz	F2_amino_acid_axis
+GCST90451106	Acetate	Acetate	Ketone bodies	F3_energy_bridge_axis	D:/metabolic/GWAS/sumstats/GCST90451106.sumstats.gz	F3_energy_bridge_axis
+GCST90451122	Glucose	Glucose	Glycolysis related metabolites	F3_energy_bridge_axis	D:/metabolic/GWAS/sumstats/GCST90451122.sumstats.gz	F3_energy_bridge_axis
+GCST90451147	Lactate	Lactate	Glycolysis related metabolites	F3_energy_bridge_axis	D:/metabolic/GWAS/sumstats/GCST90451147.sumstats.gz	F3_energy_bridge_axis

@@ -1,0 +1,6 @@
+module_name	proposed_submodule	group	n_traits
+nonlipid_main	amino_acid_axis	Amino acids	8
+nonlipid_main	energy_metabolism_axis	Ketone bodies	4
+nonlipid_main	energy_metabolism_axis	Glycolysis related metabolites	3
+nonlipid_main	renal_inflammation_bridge	Fluid balance	2
+nonlipid_main	renal_inflammation_bridge	Inflammation	1

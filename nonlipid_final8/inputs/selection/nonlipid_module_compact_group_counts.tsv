@@ -1,0 +1,6 @@
+proposed_module	group	n_traits
+amino_acid_core	Amino acids	6
+energy_metabolism_core	Glycolysis related metabolites	3
+energy_metabolism_core	Ketone bodies	3
+renal_inflammation_bridge	Fluid balance	2
+renal_inflammation_bridge	Inflammation	1

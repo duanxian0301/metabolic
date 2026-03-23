@@ -1,0 +1,6 @@
+Nonlipid module candidate panel
+Total traits in full Main_Zgt4_nonproportion manifest: 112
+Nonlipid candidate traits: 18
+Included groups: Amino acids, Fluid balance, Glycolysis related metabolites, Inflammation, Ketone bodies
+Excluded groups: Apolipoproteins, Cholesterol, Cholesteryl esters, Fatty acids, Free cholesterol, Lipoprotein particle sizes, Lipoprotein subclasses, Other lipids, Phospholipids, Total lipids, Triglycerides
+Recommended top-level strategy: keep one nonlipid main module, then use staged reduction within the module.

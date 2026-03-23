@@ -1,0 +1,4 @@
+# Final nonlipid-module 3-factor model (8 traits)
+F1_ketone_axis =~ Acetoacetate + bOHbutyrate
+F2_amino_acid_axis =~ Val + Leu + Phe
+F3_energy_bridge_axis =~ Acetate + Lactate + Glucose

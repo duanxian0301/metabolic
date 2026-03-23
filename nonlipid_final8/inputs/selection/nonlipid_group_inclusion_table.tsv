@@ -1,0 +1,17 @@
+group	n_traits	include_in_nonlipid	proposed_submodule	biological_logic
+Amino acids	8	True	amino_acid_axis	Canonical non-lipid small molecules, including BCAA and aromatic amino acids.
+Ketone bodies	4	True	energy_metabolism_axis	Non-lipid ketone body markers expected to inform an energy/fasting axis.
+Glycolysis related metabolites	3	True	energy_metabolism_axis	Central carbon and glycolysis-related intermediates that should be evaluated jointly with ketone markers.
+Fluid balance	2	True	renal_inflammation_bridge	Albumin and creatinine are non-lipid sentinels that may bridge hydration, renal handling, and systemic metabolism.
+Inflammation	1	True	renal_inflammation_bridge	Inflammatory bridge indicator retained for joint non-lipid model search.
+Lipoprotein subclasses	61	False	excluded_lipid	Excluded because subclass-resolved lipoprotein measures define the lipid module.
+Fatty acids	8	False	excluded_lipid	Excluded because fatty acid traits belong to the lipid module definition for this project.
+Other lipids	4	False	excluded_lipid	Excluded because the retained traits in this group are lipid-structure measurements rather than non-lipid metabolites.
+Triglycerides	4	False	excluded_lipid	Excluded because triglyceride traits belong to the lipid module.
+Cholesteryl esters	3	False	excluded_lipid	Excluded because cholesteryl ester traits are lipid-core measures.
+Lipoprotein particle sizes	3	False	excluded_lipid	Excluded because lipoprotein particle-size measures are part of the lipid module.
+Phospholipids	3	False	excluded_lipid	Excluded because phospholipid traits are lipid-core measures.
+Total lipids	3	False	excluded_lipid	Excluded because total-lipid traits belong to the lipid module.
+Cholesterol	2	False	excluded_lipid	Excluded because cholesterol traits are part of the lipid/lipoprotein module.
+Free cholesterol	2	False	excluded_lipid	Excluded because free cholesterol traits are lipid-core measures.
+Apolipoproteins	1	False	excluded_lipid	Excluded because apolipoproteins are core lipid/lipoprotein measures.

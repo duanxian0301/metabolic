@@ -1,0 +1,19 @@
+group	proposed_submodule	candidate_bucket	marker_role	trait_code	biomarker_name
+Amino acids	amino_acid_axis	aromatic_axis	core_marker	Phe	Phenylalanine
+Amino acids	amino_acid_axis	aromatic_axis	core_marker	Tyr	Tyrosine
+Amino acids	amino_acid_axis	bcaa_axis	core_marker	Ile	Isoleucine
+Amino acids	amino_acid_axis	bcaa_axis	core_marker	Leu	Leucine
+Amino acids	amino_acid_axis	bcaa_axis	core_marker	Val	Valine
+Amino acids	amino_acid_axis	general_amino_acid	support_marker	Ala	Alanine
+Amino acids	amino_acid_axis	general_amino_acid	support_marker	Gln	Glutamine
+Amino acids	amino_acid_axis	general_amino_acid	support_marker	His	Histidine
+Glycolysis related metabolites	energy_metabolism_axis	central_carbon_axis	support_marker	Citrate	Citrate
+Glycolysis related metabolites	energy_metabolism_axis	glycolysis_glucose_axis	core_marker	Glucose	Glucose
+Glycolysis related metabolites	energy_metabolism_axis	glycolysis_glucose_axis	core_marker	Lactate	Lactate
+Ketone bodies	energy_metabolism_axis	ketone_fasting_axis	core_marker	Acetate	Acetate
+Ketone bodies	energy_metabolism_axis	ketone_fasting_axis	core_marker	Acetoacetate	Acetoacetate
+Ketone bodies	energy_metabolism_axis	ketone_fasting_axis	support_marker	Acetone	Acetone
+Ketone bodies	energy_metabolism_axis	ketone_fasting_axis	core_marker	bOHbutyrate	3-Hydroxybutyrate
+Inflammation	renal_inflammation_bridge	inflammation_axis	bridge_marker	GlycA	Glycoprotein acetyls
+Fluid balance	renal_inflammation_bridge	renal_fluid_axis	sentinel_marker	Albumin	Albumin
+Fluid balance	renal_inflammation_bridge	renal_fluid_axis	sentinel_marker	Creatinine	Creatinine

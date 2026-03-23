@@ -1,0 +1,6 @@
+Nonlipid compact review
+Candidate traits reviewed: 18
+Compact traits retained: 15
+Compact traits dropped: 3
+Compact strategy: preserve one publishable nonlipid panel while trimming only obvious redundancy and lower-priority support markers.
+Dropped traits: Ala, Ile, Acetone

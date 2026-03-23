@@ -1,44 +1,51 @@
-# GenomicGEM Metabolic Clean Upload
+# Metabolic Clean Upload
 
-This upload package contains only the successful lipid-module pipeline used to produce the `lipid_final8` results.
+This repository contains the successful clean GenomicSEM workflows for both the `lipid_final8` and `nonlipid_final8` modules, together with code for rebuilding supplementary tables and figures.
 
-It is intentionally separated from the larger working directory because the original worktree also contains many failed model searches, temporary tests, debug scripts, and one-off diagnostics that should not be uploaded as the public reproducible pipeline.
+It is intentionally separated from the larger working directory because the original worktree also contained failed model searches, temporary tests, debug scripts, and one-off diagnostics that should not be part of the public reproducible pipeline.
+
+## Repository layout
+
+- `lipid_final8/`
+  - Successful lipid-module pipeline from the shared Main112 universe to final factor GWAS, LDSC validation, supplementary tables, and manuscript assets.
+- `nonlipid_final8/`
+  - Successful nonlipid-module pipeline from the same Main112 universe to final factor GWAS, LDSC validation, and supplementary tables.
+- `templates/`
+  - Guidance for adapting the same workflow to additional module-specific analyses.
+- `wsl_native_environment.md`
+  - Working WSL-native GenomicSEM environment notes inherited from the original `genomicGEM` workflow.
 
 ## What is included
 
-- `wsl_native_environment.md`
-  - The working WSL-native GenomicSEM environment notes inherited from the original `genomicGEM` workflow.
-- `lipid_final8/scripts`
-  - The successful scripts needed to reproduce the lipid-only pipeline from the initial 112-trait universe to final factor GWAS and factor-level LDSC validation.
-- `lipid_final8/inputs/selection`
-  - The manually curated review tables required to reproduce the successful `112 -> 94 -> 20 -> 10 -> 8` route.
-- `lipid_final8/inputs/final_model`
-  - The final 8-trait manifest and factor structure used for downstream factor GWAS.
-- `templates`
-  - Guidance for adapting the same workflow to `nonlipid` and other module-specific analyses.
+- Successful scripts only
+- Manual review tables required to reproduce the retained staged-reduction paths
+- Final manifests and factor structures for both modules
+- Supplement-table compilation scripts and workbook builders
+- Figure-generation code
 
 ## What is intentionally excluded
 
 - Failed CFA branches
-- Failed compact/2-factor rescue attempts
+- Failed rescue attempts and abandoned model lines
 - Temporary debug scripts such as `tmp_*`
-- Early Windows-only `userGWAS` attempts that were superseded by the successful WSL-native route
-- One-off smoke tests and environment patch experiments
+- `__pycache__`, `.pyc`, and local environment artifacts
+- Early Windows-only factor-GWAS attempts superseded by the successful WSL-native route
+- One-off smoke tests and intermediate work directories
+- Draft manuscripts, generated figures, and supplementary-result exports
+
+## Shared starting universe
+
+Both modules begin from the same `Main_Zgt4_nonproportion` trait universe and retain all non-proportion metabolic traits with `h2 Z > 4`.
+
+The shared starting inputs are versioned in both module folders so that each module can be reproduced independently:
+
+- `inputs/selection/main112_trait_manifest.tsv`
+- `inputs/selection/Main_Zgt4_nonproportion_ldsc_summary.tsv`
+- `inputs/selection/trait_qc_and_selection.tsv`
 
 ## Reproduction scope
 
-This package is designed to reproduce the successful `lipid_final8` analysis:
-
-1. Start from the original `Main_Zgt4_nonproportion` trait universe.
-2. Retain the `Z > 4` main-analysis universe.
-3. Restrict to lipid-related candidates.
-4. Use the preserved manual review tables to move from 94 candidates to 20 compact traits, then to 10 ultra-pure markers, then to the final 8 markers.
-5. Run the final 3-factor ESEM.
-6. Prepare WSL-native factor GWAS inputs.
-7. Run final 3-factor `userGWAS` in WSL.
-8. Merge outputs, export standard GWAS text files, and validate factor-level LDSC.
-
-## Script order for lipid_final8
+### lipid_final8
 
 Run the scripts in `lipid_final8/scripts` in this order:
 
@@ -57,32 +64,60 @@ Run the scripts in `lipid_final8/scripts` in this order:
 13. `13_ldsc_validate_factor_outputs.R`
 14. `14_compile_supplement_tables.R`
 15. `15_build_supplement_workbook.py`
+16. `16_build_lipid_nonlipid_result_figures.py`
+17. `17_build_factor_gwas_manhattan_qq.py`
+
+### nonlipid_final8
+
+Run the scripts in `nonlipid_final8/scripts` in this order:
+
+1. `01_step1_ldsc_main112_qc.R`
+2. `02_prepare_nonlipid18_candidates.py`
+3. `03_prepare_nonlipid15_compact_review.py`
+4. `04_ldsc_nonlipid_compact15.R`
+5. `05_efa_esem_nonlipid_compact15.R`
+6. `06_search_nonlipid_ultrapure3_panels.R`
+7. `07_prepare_nonlipid_ultrapure8_review.py`
+8. `08_ldsc_nonlipid_ultrapure8.R`
+9. `09_efa_esem_nonlipid_ultrapure8.R`
+10. `10_finalize_nonlipid8_model.py`
+11. `11_prepare_wsl_factor_gwas_inputs_nonlipid8.R`
+12. `12_run_wsl_usergwas_nonlipid8.R`
+13. `13_launch_wsl_prepare_nonlipid8.ps1`
+14. `14_check_wsl_prepare_nonlipid8.ps1`
+15. `15_launch_wsl_usergwas_nonlipid8_3way.ps1`
+16. `16_check_wsl_usergwas_nonlipid8_3way.ps1`
+17. `17_merge_usergwas_nonlipid8.R`
+18. `18_export_standard_usergwas_nonlipid8.R`
+19. `19_ldsc_validate_factor_outputs_nonlipid8.R`
+20. `20_compile_nonlipid8_supplement.R`
+21. `21_build_nonlipid8_workbook.py`
+22. `22_build_combined_lipid_nonlipid_workbook.py`
 
 ## Important note about manual selection
 
-This pipeline cannot be reproduced from scripts alone because the successful route includes manual selection decisions.
+These pipelines cannot be reproduced from scripts alone because the successful routes include manual selection decisions.
 
-Those decisions are preserved here as TSV inputs:
+Those decisions are preserved here as versioned TSV inputs and should be treated as part of the reproducible analysis input.
 
-- `lipid_module_compact_review.tsv`
-- `lipid_module_compact_kept.tsv`
-- `lipid_module_ultrapure3_review.tsv`
-- `lipid_module_ultrapure3_kept.tsv`
-- `lipid_module_ultrapure3_final8_review.tsv`
-- `lipid_module_ultrapure3_final8_kept.tsv`
+Examples include:
 
-These files are part of the reproducible analysis input and should be versioned together with the scripts.
+- `lipid_final8/inputs/selection/lipid_module_compact_review.tsv`
+- `lipid_final8/inputs/selection/lipid_module_ultrapure3_review.tsv`
+- `lipid_final8/inputs/selection/lipid_module_ultrapure3_final8_review.tsv`
+- `nonlipid_final8/inputs/selection/nonlipid_module_compact_review.tsv`
+- `nonlipid_final8/inputs/selection/nonlipid_module_ultrapure3_review.tsv`
+- `nonlipid_final8/inputs/selection/nonlipid_group_inclusion_table.tsv`
+- `nonlipid_final8/inputs/selection/nonlipid_module_grouping.tsv`
 
-## How to adapt this to nonlipid or another module
+## Figure-generation code
 
-Use `lipid_final8` as the working example, but do not mechanically rename lipid files only. The correct adaptation path is:
+The repository includes code for rebuilding the main lipid+nonlipid figures and the factor-GWAS Manhattan/QQ plots:
 
-1. Build a new candidate universe from the same `Main_Zgt4_nonproportion` trait space.
-2. Create new module-specific review tables with the same schema as the lipid review tables.
-3. Update the top-level `panel_path`, `output_dir`, and model text in the copied scripts.
-4. For downstream factor GWAS, prefer the full multi-factor `userGWAS` route if any factor has only two indicators.
+- `lipid_final8/scripts/16_build_lipid_nonlipid_result_figures.py`
+- `lipid_final8/scripts/17_build_factor_gwas_manhattan_qq.py`
 
-See `templates/nonlipid_adaptation_guide.md`.
+These scripts regenerate the combined lipid+nonlipid result figures, as well as factor-GWAS Manhattan and QQ plots for both modules.
 
 ## Path assumptions
 
@@ -93,4 +128,4 @@ The uploaded scripts still use the same absolute path conventions that were used
 - LDSC reference: `D:/LDSC/ldsc-master/eur_w_ld_chr`
 - WSL R library: `/home/shenjing/R/genomicsem_fix_lib`
 
-If the upload target machine uses different locations, these paths must be edited consistently before rerunning.
+If the target machine uses different locations, these paths must be edited consistently before rerunning.

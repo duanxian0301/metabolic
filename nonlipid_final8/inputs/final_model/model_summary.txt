@@ -1,0 +1,9 @@
+Current best nonlipid-module model selected for downstream analysis.
+Model: 3-factor target-rotation ESEM, final-8 marker panel.
+Fit on ALL covariance matrix: CFI = 0.997229, SRMR = 0.015595, RMSEA = 0.038530.
+Fit on ODD covariance matrix: CFI = 0.987956, SRMR = 0.022791, RMSEA = 0.085630.
+Factors:
+F1_ketone_axis: Acetoacetate, bOHbutyrate
+F2_amino_acid_axis: Val, Leu, Phe
+F3_energy_bridge_axis: Acetate, Lactate, Glucose
+Note: ALL fit passes the target threshold CFI >= 0.95 and SRMR < 0.08; ODD fit also passes those thresholds, though ODD RMSEA remains slightly above 0.08.
