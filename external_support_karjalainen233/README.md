@@ -59,8 +59,10 @@ It does not include:
 24. `24_run_external_bivariate_nonlipid_round2.R`
 25. `25_collect_external_bivariate_round1_round2.py`
 26. `26_build_external_validation_combined_workbook.py`
+27. `27_build_external_validation_combined_workbook_with_neff.py`
 
 ## Notes
 
 - The current scripts preserve the original absolute-path conventions used in the successful run.
+- Factor-GWAS `N` labels were later replaced with factor-specific `Neff` estimates; the combined workbook can be rebuilt with the updated `N` values via script 27 after running the shared root-level `estimate_factor_neff_and_update_standard_txt.py`.
 - The reusable, project-agnostic version of the same post-GWAS workflow is maintained separately in the `postGWAS` repository.

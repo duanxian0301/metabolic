@@ -26,6 +26,7 @@ It is intentionally separated from the larger working directory because the orig
 - Figure-generation code
 - Internal bivariate LDSC validation code
 - External validation code from GWAS QC to external LDSC summary
+- A shared post-processing script for replacing placeholder factor-GWAS `N` labels with factor-specific `Neff` estimates
 
 ## What is intentionally excluded
 
@@ -130,6 +131,15 @@ Run the scripts in `external_support_karjalainen233/scripts` in this order:
 24. `24_run_external_bivariate_nonlipid_round2.R`
 25. `25_collect_external_bivariate_round1_round2.py`
 26. `26_build_external_validation_combined_workbook.py`
+27. `27_build_external_validation_combined_workbook_with_neff.py`
+
+### Shared factor-GWAS Neff update
+
+After exporting the final factor-GWAS standard text files, run:
+
+1. `estimate_factor_neff_and_update_standard_txt.py`
+
+This script replaces the placeholder shared `N` label with factor-specific `Neff` estimates computed as `mean(1/(2*MAF*(1-MAF)*SE^2))` across SNPs with `0.1 <= MAF <= 0.4`, and updates the factor-GWAS metadata files accordingly.
 
 ## Important note about manual selection
 

@@ -5,6 +5,7 @@ native_dir <- file.path(root_dir, "step14_native_wsl_usergwas_final8_results")
 merged_dir <- file.path(native_dir, "merged_lipid_final8")
 std_dir <- file.path(merged_dir, "standard_txt")
 sumstats_lookup_file <- file.path(root_dir, "step14_native_wsl_factor_gwas_inputs", "final8_factorGWAS_sumstats.tsv.gz")
+bim_lookup_file <- "D:/SMR/g1000/g1000_eur.bim"
 
 dir.create(merged_dir, showWarnings = FALSE, recursive = TRUE)
 dir.create(std_dir, showWarnings = FALSE, recursive = TRUE)
@@ -23,15 +24,38 @@ if (!file.exists(sumstats_lookup_file)) {
   stop("Missing factor GWAS SNP lookup file: ", sumstats_lookup_file)
 }
 
-n_value <- 599249L
 lookup_dt <- fread(sumstats_lookup_file, select = c("SNP", "A1", "A2", "MAF"))
 lookup_dt <- unique(lookup_dt, by = "SNP")
 
-export_one <- function(infile, outfile, n_value) {
+coord_dt <- NULL
+if (file.exists(bim_lookup_file)) {
+  coord_dt <- fread(
+    bim_lookup_file,
+    col.names = c("CHR", "SNP", "CM", "BP", "BIM_A1", "BIM_A2"),
+    select = c("CHR", "SNP", "BP")
+  )
+  coord_dt <- unique(coord_dt, by = "SNP")
+}
+
+estimate_neff <- function(maf, se) {
+  keep <- !is.na(maf) & !is.na(se) & maf >= 0.1 & maf <= 0.4 & se > 0
+  if (!any(keep)) {
+    return(NA_integer_)
+  }
+  as.integer(round(mean(1 / (2 * maf[keep] * (1 - maf[keep]) * (se[keep]^2)))))
+}
+
+export_one <- function(infile, outfile) {
   dt <- fread(infile)
   dt <- merge(lookup_dt, dt[, .(SNP, est, SE, Pval_Estimate)], by = "SNP", all.x = FALSE, all.y = TRUE)
+  if (!is.null(coord_dt)) {
+    dt <- merge(coord_dt, dt, by = "SNP", all.y = TRUE)
+  }
+  n_value <- estimate_neff(dt$MAF, dt$SE)
   out <- data.table(
     SNP = dt$SNP,
+    CHR = dt$CHR,
+    BP = dt$BP,
     A1 = dt$A1,
     A2 = dt$A2,
     FRQ = dt$MAF,
@@ -41,24 +65,22 @@ export_one <- function(infile, outfile, n_value) {
     N = as.integer(n_value)
   )
   fwrite(out, outfile, sep = "\t")
+  n_value
 }
 
-export_one(
+f1_n <- export_one(
   factor_files[["F1"]],
-  file.path(std_dir, "lipid_final8_F1_standard.txt"),
-  n_value
+  file.path(std_dir, "lipid_final8_F1_standard.txt")
 )
 
-export_one(
+f2_n <- export_one(
   factor_files[["F2"]],
-  file.path(std_dir, "lipid_final8_F2_standard.txt"),
-  n_value
+  file.path(std_dir, "lipid_final8_F2_standard.txt")
 )
 
-export_one(
+f3_n <- export_one(
   factor_files[["F3"]],
-  file.path(std_dir, "lipid_final8_F3_standard.txt"),
-  n_value
+  file.path(std_dir, "lipid_final8_F3_standard.txt")
 )
 
 meta <- data.table(
@@ -69,8 +91,8 @@ meta <- data.table(
     file.path(std_dir, "lipid_final8_F2_standard.txt"),
     file.path(std_dir, "lipid_final8_F3_standard.txt")
   ),
-  n_used = n_value,
-  notes = "Native WSL GenomicSEM userGWAS rerun on lipid final8 3-factor model; FREQ uses MAF."
+  n_used = c(f1_n, f2_n, f3_n),
+  notes = "Native WSL GenomicSEM userGWAS rerun on lipid final8 3-factor model; FREQ uses MAF; CHR/BP merged from D:/SMR/g1000/g1000_eur.bim when available; N replaced with factor-specific Neff estimated as mean(1/(2*MAF*(1-MAF)*SE^2)) across SNPs with 0.1<=MAF<=0.4."
 )
 
 fwrite(meta, file.path(std_dir, "lipid_final8_standard_txt_metadata.tsv"), sep = "\t")
