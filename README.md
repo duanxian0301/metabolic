@@ -1,6 +1,6 @@
 # Metabolic Clean Upload
 
-This repository contains the successful clean GenomicSEM workflows for both the `lipid_final8` and `nonlipid_final8` modules, together with code for rebuilding supplementary tables and figures.
+This repository contains the successful clean GenomicSEM workflows for both the `lipid_final8` and `nonlipid_final8` modules, together with code for rebuilding supplementary tables, figures, internal validation, and external validation.
 
 It is intentionally separated from the larger working directory because the original worktree also contained failed model searches, temporary tests, debug scripts, and one-off diagnostics that should not be part of the public reproducible pipeline.
 
@@ -10,6 +10,8 @@ It is intentionally separated from the larger working directory because the orig
   - Successful lipid-module pipeline from the shared Main112 universe to final factor GWAS, LDSC validation, supplementary tables, and manuscript assets.
 - `nonlipid_final8/`
   - Successful nonlipid-module pipeline from the same Main112 universe to final factor GWAS, LDSC validation, and supplementary tables.
+- `external_support_karjalainen233/`
+  - External-validation workflow from downloaded external GWAS files through QC, univariate LDSC screening, pair prioritization, external bivariate LDSC, and combined workbook export.
 - `templates/`
   - Guidance for adapting the same workflow to additional module-specific analyses.
 - `wsl_native_environment.md`
@@ -22,6 +24,8 @@ It is intentionally separated from the larger working directory because the orig
 - Final manifests and factor structures for both modules
 - Supplement-table compilation scripts and workbook builders
 - Figure-generation code
+- Internal bivariate LDSC validation code
+- External validation code from GWAS QC to external LDSC summary
 
 ## What is intentionally excluded
 
@@ -66,6 +70,7 @@ Run the scripts in `lipid_final8/scripts` in this order:
 15. `15_build_supplement_workbook.py`
 16. `16_build_lipid_nonlipid_result_figures.py`
 17. `17_build_factor_gwas_manhattan_qq.py`
+18. `18_internal_bivariate_ldsc_lipid_vs_indicators.R`
 
 ### nonlipid_final8
 
@@ -93,6 +98,38 @@ Run the scripts in `nonlipid_final8/scripts` in this order:
 20. `20_compile_nonlipid8_supplement.R`
 21. `21_build_nonlipid8_workbook.py`
 22. `22_build_combined_lipid_nonlipid_workbook.py`
+23. `23_internal_bivariate_ldsc_nonlipid_vs_indicators.R`
+
+### external_support_karjalainen233
+
+Run the scripts in `external_support_karjalainen233/scripts` in this order:
+
+1. `01_build_external_ldsc_tables.py`
+2. `02_build_external_processing_manifest.py`
+3. `03_standardize_external_gwas_to_txt.py`
+4. `04_launch_external233_standardization_3way.ps1`
+5. `05_check_external233_standardization_3way.ps1`
+6. `06_build_failed_retry_manifest.py`
+7. `07_launch_failed_retry_batches.ps1`
+8. `08_build_tail_retry_manifest.py`
+9. `09_launch_tail_retry_batches.ps1`
+10. `10_build_external233_ldsc_manifest.py`
+11. `11_run_external233_univariate_ldsc.py`
+12. `12_collect_external233_univariate_ldsc.py`
+13. `13_launch_external233_univariate_ldsc_3way.ps1`
+14. `14_check_external233_univariate_ldsc_3way.ps1`
+15. `15_run_external233_univariate_ldsc_wsl.py`
+16. `16_launch_external233_univariate_ldsc_wsl.ps1`
+17. `17_build_external_validation_priority_tables.py`
+18. `18_build_external_bivariate_round1_manifests.py`
+19. `19_run_external_bivariate_lipid_round1.R`
+20. `20_run_external_bivariate_nonlipid_round1.R`
+21. `21_collect_external_bivariate_round1.py`
+22. `22_build_external_bivariate_round2_manifests.py`
+23. `23_run_external_bivariate_lipid_round2.R`
+24. `24_run_external_bivariate_nonlipid_round2.R`
+25. `25_collect_external_bivariate_round1_round2.py`
+26. `26_build_external_validation_combined_workbook.py`
 
 ## Important note about manual selection
 
@@ -109,6 +146,8 @@ Examples include:
 - `nonlipid_final8/inputs/selection/nonlipid_module_ultrapure3_review.tsv`
 - `nonlipid_final8/inputs/selection/nonlipid_group_inclusion_table.tsv`
 - `nonlipid_final8/inputs/selection/nonlipid_module_grouping.tsv`
+- `lipid_final8/inputs/validation/requested_pairs.tsv`
+- `nonlipid_final8/inputs/validation/requested_pairs.tsv`
 
 ## Figure-generation code
 

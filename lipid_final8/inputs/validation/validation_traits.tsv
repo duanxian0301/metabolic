@@ -1,0 +1,24 @@
+trait	category	subset	anchor_factor	biomarker_name	group	sumstats_file
+lipid8_F1	factor	final_factor	F1_TG_rich_axis	lipid factor 1	final_factor	NA
+lipid8_F2	factor	final_factor	F2_HDL_core_axis	lipid factor 2	final_factor	NA
+lipid8_F3	factor	final_factor	F3_CE_structural_axis	lipid factor 3	final_factor	NA
+M_HDL_TG	indicator	final8	F1_TG_rich_axis	Triglycerides in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451206.sumstats.gz
+VLDL_size	indicator	final8	F1_TG_rich_axis	Average diameter for VLDL particles	Lipoprotein particle sizes	D:/metabolic/GWAS/sumstats/GCST90451305.sumstats.gz
+MUFA	indicator	final8	F1_TG_rich_axis	Monounsaturated fatty acids	Fatty acids	D:/metabolic/GWAS/sumstats/GCST90451220.sumstats.gz
+S_VLDL_TG	indicator	final8	F1_TG_rich_axis	Triglycerides in small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451285.sumstats.gz
+ApoA1	indicator	final8	F2_HDL_core_axis	Apolipoprotein A1	Apolipoproteins	D:/metabolic/GWAS/sumstats/GCST90451111.sumstats.gz
+HDL_CE	indicator	final8	F2_HDL_core_axis	Cholesteryl esters in HDL	Cholesteryl esters	D:/metabolic/GWAS/sumstats/GCST90451125.sumstats.gz
+XS_VLDL_FC	indicator	final8	F3_CE_structural_axis	Free cholesterol in very small VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451336.sumstats.gz
+VLDL_CE	indicator	final8	F3_CE_structural_axis	Cholesteryl esters in VLDL	Cholesteryl esters	D:/metabolic/GWAS/sumstats/GCST90451299.sumstats.gz
+IDL_TG	support	same_domain_support	F1_TG_rich_axis	Triglycerides in IDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451145.sumstats.gz
+M_LDL_TG	support	same_domain_support	F1_TG_rich_axis	Triglycerides in medium LDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451218.sumstats.gz
+L_VLDL_TG	support	same_domain_support	F1_TG_rich_axis	Triglycerides in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451194.sumstats.gz
+XL_VLDL_TG	support	same_domain_support	F1_TG_rich_axis	Triglycerides in very large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451330.sumstats.gz
+HDL_C	support	same_domain_support	F2_HDL_core_axis	HDL cholesterol	Cholesterol	D:/metabolic/GWAS/sumstats/GCST90451126.sumstats.gz
+L_HDL_C	support	same_domain_support	F2_HDL_core_axis	Cholesterol in large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451162.sumstats.gz
+M_HDL_C	support	same_domain_support	F2_HDL_core_axis	Cholesterol in medium HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451198.sumstats.gz
+XL_HDL_C	support	same_domain_support	F2_HDL_core_axis	Cholesterol in very large HDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451310.sumstats.gz
+HDL_FC	support	same_domain_support	F3_CE_structural_axis	Free cholesterol in HDL	Free cholesterol	D:/metabolic/GWAS/sumstats/GCST90451127.sumstats.gz
+VLDL_FC	support	same_domain_support	F3_CE_structural_axis	Free cholesterol in VLDL	Free cholesterol	D:/metabolic/GWAS/sumstats/GCST90451301.sumstats.gz
+Total_CE	support	same_domain_support	F3_CE_structural_axis	Total esterified cholesterol	Cholesteryl esters	D:/metabolic/GWAS/sumstats/GCST90451288.sumstats.gz
+L_VLDL_CE	support	same_domain_support	F3_CE_structural_axis	Cholesteryl esters in large VLDL	Lipoprotein subclasses	D:/metabolic/GWAS/sumstats/GCST90451184.sumstats.gz

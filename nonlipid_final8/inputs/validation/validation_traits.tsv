@@ -1,0 +1,22 @@
+trait	category	subset	anchor_factor	biomarker_name	group	sumstats_file
+nonlipid8_F1	factor	final_factor	F1_ketone_axis	nonlipid factor 1	final_factor	NA
+nonlipid8_F2	factor	final_factor	F2_amino_acid_axis	nonlipid factor 2	final_factor	NA
+nonlipid8_F3	factor	final_factor	F3_energy_bridge_axis	nonlipid factor 3	final_factor	NA
+Acetoacetate	indicator	final8	F1_ketone_axis	Acetoacetate	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451107.sumstats.gz
+bOHbutyrate	indicator	final8	F1_ketone_axis	3-Hydroxybutyrate	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451114.sumstats.gz
+Leu	indicator	final8	F2_amino_acid_axis	Leucine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451158.sumstats.gz
+Phe	indicator	final8	F2_amino_acid_axis	Phenylalanine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451239.sumstats.gz
+Val	indicator	final8	F2_amino_acid_axis	Valine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451298.sumstats.gz
+Acetate	indicator	final8	F3_energy_bridge_axis	Acetate	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451106.sumstats.gz
+Glucose	indicator	final8	F3_energy_bridge_axis	Glucose	Glycolysis related metabolites	D:/metabolic/GWAS/sumstats/GCST90451122.sumstats.gz
+Lactate	indicator	final8	F3_energy_bridge_axis	Lactate	Glycolysis related metabolites	D:/metabolic/GWAS/sumstats/GCST90451147.sumstats.gz
+Acetone	support	same_domain_support	F1_ketone_axis	Acetone	Ketone bodies	D:/metabolic/GWAS/sumstats/GCST90451108.sumstats.gz
+Ala	support	same_domain_support	F2_amino_acid_axis	Alanine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451109.sumstats.gz
+Gln	support	same_domain_support	F2_amino_acid_axis	Glutamine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451121.sumstats.gz
+His	support	same_domain_support	F2_amino_acid_axis	Histidine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451133.sumstats.gz
+Ile	support	same_domain_support	F2_amino_acid_axis	Isoleucine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451146.sumstats.gz
+Tyr	support	same_domain_support	F2_amino_acid_axis	Tyrosine	Amino acids	D:/metabolic/GWAS/sumstats/GCST90451296.sumstats.gz
+Citrate	support	same_domain_support	F3_energy_bridge_axis	Citrate	Glycolysis related metabolites	D:/metabolic/GWAS/sumstats/GCST90451116.sumstats.gz
+GlycA	support	same_domain_support	F3_energy_bridge_axis	Glycoprotein acetyls	Inflammation	D:/metabolic/GWAS/sumstats/GCST90451123.sumstats.gz
+Albumin	support	exploratory_bridge	exploratory_bridge	Albumin	Fluid balance	D:/metabolic/GWAS/sumstats/GCST90451110.sumstats.gz
+Creatinine	support	exploratory_bridge	exploratory_bridge	Creatinine	Fluid balance	D:/metabolic/GWAS/sumstats/GCST90451118.sumstats.gz

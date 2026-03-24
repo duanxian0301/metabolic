@@ -1,0 +1,6 @@
+table_name	n_rows	notes
+karjalainen233_external_support_catalog.tsv	233	All 233 downloaded external support traits from the Excel sheet.
+lipid_final8_external_validation_traits.tsv	18	Factors plus exact/approximate matched external support traits for lipid final8.
+lipid_final8_external_requested_pairs.tsv	15	Requested factor-trait external validation pairs for lipid final8.
+nonlipid_final8_external_validation_traits.tsv	16	Factors plus exact/proxy/support external traits for nonlipid final8.
+nonlipid_final8_external_requested_pairs.tsv	13	Requested factor-trait external validation pairs for nonlipid final8.

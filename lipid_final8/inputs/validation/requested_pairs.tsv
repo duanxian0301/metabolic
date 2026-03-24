@@ -1,0 +1,37 @@
+factor	target_trait	target_category	pair_set	expected_alignment	notes
+lipid8_F1	M_HDL_TG	indicator	final8_primary	primary	Primary triglyceride-rich indicator
+lipid8_F1	VLDL_size	indicator	final8_primary	primary	Primary triglyceride-rich indicator
+lipid8_F1	MUFA	indicator	final8_primary	primary	Primary triglyceride-rich indicator
+lipid8_F1	S_VLDL_TG	indicator	final8_primary	primary	Primary triglyceride-rich indicator
+lipid8_F1	ApoA1	indicator	final8_nonprimary	cross_domain	HDL-core comparison indicator
+lipid8_F1	HDL_CE	indicator	final8_nonprimary	cross_domain	HDL-core comparison indicator
+lipid8_F1	XS_VLDL_FC	indicator	final8_nonprimary	cross_domain	CE-structural comparison indicator
+lipid8_F1	VLDL_CE	indicator	final8_nonprimary	cross_domain	CE-structural comparison indicator
+lipid8_F1	IDL_TG	support	same_domain_support	same_domain_support	Support trait from TG-rich/VLDL domain
+lipid8_F1	M_LDL_TG	support	same_domain_support	same_domain_support	Support trait from TG-rich/VLDL domain
+lipid8_F1	L_VLDL_TG	support	same_domain_support	same_domain_support	Support trait from TG-rich/VLDL domain
+lipid8_F1	XL_VLDL_TG	support	same_domain_support	same_domain_support	Support trait from TG-rich/VLDL domain
+lipid8_F2	ApoA1	indicator	final8_primary	primary	Primary HDL-core indicator
+lipid8_F2	HDL_CE	indicator	final8_primary	primary	Primary HDL-core indicator
+lipid8_F2	M_HDL_TG	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F2	VLDL_size	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F2	MUFA	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F2	S_VLDL_TG	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F2	XS_VLDL_FC	indicator	final8_nonprimary	cross_domain	CE-structural comparison indicator
+lipid8_F2	VLDL_CE	indicator	final8_nonprimary	cross_domain	CE-structural comparison indicator
+lipid8_F2	HDL_C	support	same_domain_support	same_domain_support	Support trait from HDL-core domain
+lipid8_F2	L_HDL_C	support	same_domain_support	same_domain_support	Support trait from HDL-core domain
+lipid8_F2	M_HDL_C	support	same_domain_support	same_domain_support	Support trait from HDL-core domain
+lipid8_F2	XL_HDL_C	support	same_domain_support	same_domain_support	Support trait from HDL-core domain
+lipid8_F3	XS_VLDL_FC	indicator	final8_primary	primary	Primary CE-structural indicator
+lipid8_F3	VLDL_CE	indicator	final8_primary	primary	Primary CE-structural indicator
+lipid8_F3	M_HDL_TG	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F3	VLDL_size	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F3	MUFA	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F3	S_VLDL_TG	indicator	final8_nonprimary	cross_domain	TG-rich comparison indicator
+lipid8_F3	ApoA1	indicator	final8_nonprimary	cross_domain	HDL-core comparison indicator
+lipid8_F3	HDL_CE	indicator	final8_nonprimary	cross_domain	HDL-core comparison indicator
+lipid8_F3	HDL_FC	support	same_domain_support	same_domain_support	Support trait from CE/free-cholesterol domain
+lipid8_F3	VLDL_FC	support	same_domain_support	same_domain_support	Support trait from CE/free-cholesterol domain
+lipid8_F3	Total_CE	support	same_domain_support	same_domain_support	Support trait from CE/free-cholesterol domain
+lipid8_F3	L_VLDL_CE	support	same_domain_support	same_domain_support	Support trait from CE/free-cholesterol domain

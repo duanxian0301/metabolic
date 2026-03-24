@@ -21,9 +21,12 @@ The final 8-trait model resolves three interpretable factors:
   - Final manifest, factor structure, and model summary.
 - `scripts/`
   - Successful nonlipid scripts from shared step1 through factor GWAS, LDSC validation, supplement-table generation, and combined workbook building.
+- `inputs/validation/`
+  - Trait manifest and requested pair list for internal bivariate LDSC validation against final indicators and support traits.
 
 ## Notes
 
 - `01_step1_ldsc_main112_qc.R` is shared with the lipid workflow and is copied here so the nonlipid module can be reproduced independently.
 - The successful downstream factor-GWAS route uses WSL-native `GenomicSEM::userGWAS`.
+- Internal validation is defined through `inputs/validation/validation_traits.tsv` and `inputs/validation/requested_pairs.tsv`, then executed by `23_internal_bivariate_ldsc_nonlipid_vs_indicators.R`.
 - Failed model lines, temporary diagnostics, and abandoned Windows-only downstream routes are intentionally excluded.

@@ -1,0 +1,39 @@
+factor	target_trait	target_category	pair_set	expected_alignment	notes
+nonlipid8_F1	Acetoacetate	indicator	final8_primary	primary	Primary ketone indicator
+nonlipid8_F1	bOHbutyrate	indicator	final8_primary	primary	Primary ketone indicator
+nonlipid8_F1	Leu	indicator	final8_nonprimary	cross_domain	Amino-acid comparison indicator
+nonlipid8_F1	Phe	indicator	final8_nonprimary	cross_domain	Amino-acid comparison indicator
+nonlipid8_F1	Val	indicator	final8_nonprimary	cross_domain	Amino-acid comparison indicator
+nonlipid8_F1	Acetate	indicator	final8_nonprimary	cross_domain	Energy-bridge comparison indicator
+nonlipid8_F1	Glucose	indicator	final8_nonprimary	cross_domain	Energy-bridge comparison indicator
+nonlipid8_F1	Lactate	indicator	final8_nonprimary	cross_domain	Energy-bridge comparison indicator
+nonlipid8_F1	Acetone	support	same_domain_support	same_domain_support	Support trait from ketone domain
+nonlipid8_F2	Leu	indicator	final8_primary	primary	Primary amino-acid indicator
+nonlipid8_F2	Phe	indicator	final8_primary	primary	Primary amino-acid indicator
+nonlipid8_F2	Val	indicator	final8_primary	primary	Primary amino-acid indicator
+nonlipid8_F2	Acetoacetate	indicator	final8_nonprimary	cross_domain	Ketone comparison indicator
+nonlipid8_F2	bOHbutyrate	indicator	final8_nonprimary	cross_domain	Ketone comparison indicator
+nonlipid8_F2	Acetate	indicator	final8_nonprimary	cross_domain	Energy-bridge comparison indicator
+nonlipid8_F2	Glucose	indicator	final8_nonprimary	cross_domain	Energy-bridge comparison indicator
+nonlipid8_F2	Lactate	indicator	final8_nonprimary	cross_domain	Energy-bridge comparison indicator
+nonlipid8_F2	Ala	support	same_domain_support	same_domain_support	Support trait from amino-acid domain
+nonlipid8_F2	Gln	support	same_domain_support	same_domain_support	Support trait from amino-acid domain
+nonlipid8_F2	His	support	same_domain_support	same_domain_support	Support trait from amino-acid domain
+nonlipid8_F2	Ile	support	same_domain_support	same_domain_support	Support trait from amino-acid domain
+nonlipid8_F2	Tyr	support	same_domain_support	same_domain_support	Support trait from amino-acid domain
+nonlipid8_F3	Acetate	indicator	final8_primary	primary	Primary energy-bridge indicator
+nonlipid8_F3	Glucose	indicator	final8_primary	primary	Primary energy-bridge indicator
+nonlipid8_F3	Lactate	indicator	final8_primary	primary	Primary energy-bridge indicator
+nonlipid8_F3	Acetoacetate	indicator	final8_nonprimary	cross_domain	Ketone comparison indicator
+nonlipid8_F3	bOHbutyrate	indicator	final8_nonprimary	cross_domain	Ketone comparison indicator
+nonlipid8_F3	Leu	indicator	final8_nonprimary	cross_domain	Amino-acid comparison indicator
+nonlipid8_F3	Phe	indicator	final8_nonprimary	cross_domain	Amino-acid comparison indicator
+nonlipid8_F3	Val	indicator	final8_nonprimary	cross_domain	Amino-acid comparison indicator
+nonlipid8_F3	Citrate	support	same_domain_support	same_domain_support	Support trait from glycolysis/energy domain
+nonlipid8_F3	GlycA	support	same_domain_support	same_domain_support	Support trait from glycolysis/energy domain
+nonlipid8_F1	Albumin	support	exploratory_bridge	exploratory_bridge	Exploratory bridge trait
+nonlipid8_F1	Creatinine	support	exploratory_bridge	exploratory_bridge	Exploratory bridge trait
+nonlipid8_F2	Albumin	support	exploratory_bridge	exploratory_bridge	Exploratory bridge trait
+nonlipid8_F2	Creatinine	support	exploratory_bridge	exploratory_bridge	Exploratory bridge trait
+nonlipid8_F3	Albumin	support	exploratory_bridge	exploratory_bridge	Exploratory bridge trait
+nonlipid8_F3	Creatinine	support	exploratory_bridge	exploratory_bridge	Exploratory bridge trait

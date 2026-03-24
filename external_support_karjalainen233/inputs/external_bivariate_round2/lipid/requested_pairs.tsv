@@ -1,0 +1,10 @@
+factor	target_trait	anchor_factor	internal_trait	external_trait	study_accession	validation_priority	pair_set	expected_alignment
+lipid8_F1	ext_GCST90302081	lipid8_F2	HDL_CE	Cholesterol esters in small HDL	GCST90302081	same_domain_bivariate_candidate	cross_factor	nonprimary
+lipid8_F2	ext_GCST90302081	lipid8_F2	HDL_CE	Cholesterol esters in small HDL	GCST90302081	same_domain_bivariate_candidate	support_match	support
+lipid8_F3	ext_GCST90302081	lipid8_F2	HDL_CE	Cholesterol esters in small HDL	GCST90302081	same_domain_bivariate_candidate	cross_factor	nonprimary
+lipid8_F1	ext_GCST90302021	lipid8_F3	VLDL_CE	Cholesterol esters in large VLDL	GCST90302021	same_domain_bivariate_candidate	cross_factor	nonprimary
+lipid8_F2	ext_GCST90302021	lipid8_F3	VLDL_CE	Cholesterol esters in large VLDL	GCST90302021	same_domain_bivariate_candidate	cross_factor	nonprimary
+lipid8_F3	ext_GCST90302021	lipid8_F3	VLDL_CE	Cholesterol esters in large VLDL	GCST90302021	same_domain_bivariate_candidate	support_match	support
+lipid8_F1	ext_GCST90302140	lipid8_F3	VLDL_CE	Cholesterol esters in very large VLDL	GCST90302140	same_domain_bivariate_candidate	cross_factor	nonprimary
+lipid8_F2	ext_GCST90302140	lipid8_F3	VLDL_CE	Cholesterol esters in very large VLDL	GCST90302140	same_domain_bivariate_candidate	cross_factor	nonprimary
+lipid8_F3	ext_GCST90302140	lipid8_F3	VLDL_CE	Cholesterol esters in very large VLDL	GCST90302140	same_domain_bivariate_candidate	support_match	support

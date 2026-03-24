@@ -1,0 +1,16 @@
+factor	target_trait	anchor_factor	internal_trait	external_trait	study_accession	validation_priority	pair_set	expected_alignment
+lipid8_F1	ext_GCST90302041	lipid8_F1	M_HDL_TG	Triglycerides in medium HDL	GCST90302041	primary_bivariate_candidate	primary_match	primary
+lipid8_F2	ext_GCST90302041	lipid8_F1	M_HDL_TG	Triglycerides in medium HDL	GCST90302041	primary_bivariate_candidate	cross_factor	nonprimary
+lipid8_F3	ext_GCST90302041	lipid8_F1	M_HDL_TG	Triglycerides in medium HDL	GCST90302041	primary_bivariate_candidate	cross_factor	nonprimary
+lipid8_F1	ext_GCST90302055	lipid8_F1	MUFA	Monounsaturated fatty acids (16:1, 18:1) levels	GCST90302055	primary_bivariate_candidate	primary_match	primary
+lipid8_F2	ext_GCST90302055	lipid8_F1	MUFA	Monounsaturated fatty acids (16:1, 18:1) levels	GCST90302055	primary_bivariate_candidate	cross_factor	nonprimary
+lipid8_F3	ext_GCST90302055	lipid8_F1	MUFA	Monounsaturated fatty acids (16:1, 18:1) levels	GCST90302055	primary_bivariate_candidate	cross_factor	nonprimary
+lipid8_F1	ext_GCST90302124	lipid8_F1	VLDL_size	Mean diameter of VLDL particles	GCST90302124	primary_bivariate_candidate	primary_match	primary
+lipid8_F2	ext_GCST90302124	lipid8_F1	VLDL_size	Mean diameter of VLDL particles	GCST90302124	primary_bivariate_candidate	cross_factor	nonprimary
+lipid8_F3	ext_GCST90302124	lipid8_F1	VLDL_size	Mean diameter of VLDL particles	GCST90302124	primary_bivariate_candidate	cross_factor	nonprimary
+lipid8_F1	ext_GCST90301945	lipid8_F2	ApoA1	Apolipoprotein A-I levels	GCST90301945	primary_bivariate_candidate_caution	cross_factor	nonprimary
+lipid8_F2	ext_GCST90301945	lipid8_F2	ApoA1	Apolipoprotein A-I levels	GCST90301945	primary_bivariate_candidate_caution	primary_match	primary
+lipid8_F3	ext_GCST90301945	lipid8_F2	ApoA1	Apolipoprotein A-I levels	GCST90301945	primary_bivariate_candidate_caution	cross_factor	nonprimary
+lipid8_F1	ext_GCST90302154	lipid8_F3	XS_VLDL_FC	Free cholesterol in very small VLDL	GCST90302154	primary_bivariate_candidate_caution	cross_factor	nonprimary
+lipid8_F2	ext_GCST90302154	lipid8_F3	XS_VLDL_FC	Free cholesterol in very small VLDL	GCST90302154	primary_bivariate_candidate_caution	cross_factor	nonprimary
+lipid8_F3	ext_GCST90302154	lipid8_F3	XS_VLDL_FC	Free cholesterol in very small VLDL	GCST90302154	primary_bivariate_candidate_caution	primary_match	primary
